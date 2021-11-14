@@ -1,14 +1,15 @@
+import Navbar from "./layouts/navbar" 
+import Footer from './layouts/footer'
+import Content from './components/contents'
 
-
-function App() { 
+const App = () => {
   return (
-    <div className="App"> 
-    Lorem ipsum dolor sit amet, consectetur  
-     <h4> 
-       I'am h4
-     </h4> 
-     
-        </div>
+    <div className="app"> 
+    <Navbar /> 
+    <Content /> 
+    <Footer />
+    </div> 
+
   );
 }
 
